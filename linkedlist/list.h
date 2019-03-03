@@ -21,7 +21,7 @@ ListNode* reverse(ListNode* head)
         return head;
     }
 
-    auto current = head;
+    ListNode* current = head;
     ListNode* prev = nullptr;
     while (current)
     {
