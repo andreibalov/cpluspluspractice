@@ -1,5 +1,6 @@
 #include "quicksort.h"
-
+#include "bubblesort.h"
+#include <algorithm>
 
 bool orderTest()
 {
@@ -17,10 +18,8 @@ bool orderTest()
     return true;
 }
 
-
 int main(int argc, char** argv)
 {
-    bool orderResult = orderTest();
-
+    bool bubbleResult = orderTest();
 
 }
