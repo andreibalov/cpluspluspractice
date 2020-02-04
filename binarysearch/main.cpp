@@ -4,7 +4,7 @@
 
 int main(int argc, char* argv[])
 {
-    BinarySearchTests tester;
+    const BinarySearchTests tester;
     tester.runTests();
 
     return EXIT_SUCCESS;
